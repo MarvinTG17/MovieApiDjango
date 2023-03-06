@@ -29,7 +29,7 @@ environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
 SECRET_KEY = 'django-insecure-^r2oor132r(v!xxe4#p13yk+^dngg7)v8_wv=g5%bh1dnd%#uh'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["localhost", "movieapidjango-production.up.railway.app"]
 CSRF_TRUSTED_ORIGIN = ["https://movieapidjango-production.up.railway.app"]
