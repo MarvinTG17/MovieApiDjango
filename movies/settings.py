@@ -94,7 +94,7 @@ WSGI_APPLICATION = 'movies.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME':     env('MYSQLDATABASE'),
         'PORT':     env('MYSQLPORT'),
         'USER':     env('MYSQLUSER'),
